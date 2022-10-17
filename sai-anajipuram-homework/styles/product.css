@@ -1,0 +1,155 @@
+html{
+    background-image: url("../images/bats.gif");
+    background-repeat: repeat;
+}
+body{
+    font-family: sans-serif;
+    font-size: 100;
+    width: 800px;
+    margin: 10px auto;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 5px 5px 0 0;
+
+}
+main{
+    padding: 10px 1em;
+}
+main h1::first-letter {
+    font-size: 170%;
+}
+header {
+    font-weight: bold;
+    padding: 1em; 
+    background-image: -webkit-linear-gradient( 45deg,white 0,orange 75%,black 100%);
+    border-bottom: 2px solid black; 
+}
+header img {
+    float: left; 
+}
+header h2 {
+    margin: 0%;
+    text-indent: 20px;
+    font-size: 230%;
+}
+header h3 {
+    margin: 0%;
+    text-indent: 20px;
+    font-size: 130%;
+}
+footer p {
+    font-size: 80%;
+    text-align: center;
+}
+footer {
+    clear: both;
+    background-image: -webkit-linear-gradient( 45deg,black 0,orange 75%,white 100%);
+    border-top: 2px solid black;
+    padding: .3em;
+}
+ul { 
+    line-height: 1.5;
+    padding-left: 15px; 
+}
+li{ 
+    font-size: 95%; 
+}
+a { 
+    font-weight: bold; 
+}
+a:visited {
+    color: orange;
+}
+a:hover, a:focus {
+    color:green; 
+}
+aside {
+    float: left;
+    width: 160px;
+    height : 580px
+}
+.mid_sec{
+    width: 500px;
+    height: 0px;
+
+}
+
+.recent_products{
+    width: 140px;
+    margin: 0px;
+    background-color: #F5DEB3;
+    height: 600px;
+    width: 250px;
+    margin-top: -60px;
+
+}
+.recent_products ul li{
+    list-style: none
+}
+.recent_products ul li img{
+    text-align: center;
+    height: 100px;
+}
+#nav_menu ul { 
+    list-style-type: none; 
+}
+#nav_menu ul li { 
+    width: 100px;
+    margin-bottom: .5em;
+    border: 2px solid black; 
+}
+    
+#nav_menu ul li a {
+    display: block;
+    padding: .2em 0 .1em 0.7em;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    background-color: orange; 
+}
+#nav_menu_1 ul{
+    margin: 0%;
+    padding: 0%;
+}
+#nav_menu_1 ul {
+    list-style: none;
+    position:relative; 
+    background-color: black;
+}
+#nav_menu_1 ul li { 
+    float: left; 
+}
+#nav_menu_1 ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+}               
+#nav_menu_1 ul ul li a:hover , #nav_menu_1 a:focus{
+    background-color: gray;
+}
+#nav_menu_1 ul li:hover > ul {
+    display: block; 
+}
+#nav_menu_1 > ul::after {
+    content: "";
+    display: block;
+    clear: both; 
+}
+#nav_menu_1 ul li a {
+    display: block;
+    padding: 0.7em 2.5em 0.7em 2.5em;
+    text-decoration: none;
+    font-weight: bold;
+    color: white; 
+}
+
+#nav_menu_1 ul li a:current { 
+    color:orange; 
+}
+#nav_menu_1 ul ul li { 
+    float: none;
+}
+
+.recent_products{
+    float: right !important;
+}
